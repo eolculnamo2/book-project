@@ -1,1 +1,46 @@
-@import '../global'
+.title {
+    text-align: center;
+    background-color: silver;
+    margin: 0;
+}
+
+body {
+    background-color: #333745;
+    color: #F5F5F5;
+    margin: 0;
+}
+
+.loginBtn {
+    text-align: center;
+    color: black;
+    border: none;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: center;
+    margin: 0;
+}
+
+.introContainer {
+    text-align: center;
+    margin: 0;
+    border-right: solid;
+    padding-right: 10%;
+}
+
+.introPage {
+//  background-color: #493B3B;
+ color: #D1CECE;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin: 0;
+ border-bottom: solid;
+ border-top: solid;
+}
+
+.fPw {
+    color: #821FF3
+}

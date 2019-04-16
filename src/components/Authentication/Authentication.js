@@ -1,17 +1,19 @@
 import React from 'react';
+import './Authentication.scss';
+import AuthTitle from "./AuthTitle.js";
+import AuthLogin from './AuthLogin.js';
 
 class Authentication extends React.Component {
-    constructor() {
-        super();
-        this.state = {}
-    }
     render() {
-        return(
+        return (
             <div>
-                Authentication
+                <AuthTitle />
+                <AuthLogin />
             </div>
-        )
+        );
     }
 }
+
+
 
 export default Authentication;
