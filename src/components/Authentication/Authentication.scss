@@ -1,46 +1,84 @@
 .title {
-    text-align: center;
-    background-color: silver;
+    text-align: left;
+    color: #757373;
     margin: 0;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#title {
+    border-bottom: solid #8017F7 4px;
 }
 
 body {
-    background-color: #333745;
-    color: #F5F5F5;
+    background-color: white;
     margin: 0;
+    font: arial;
 }
 
 .loginBtn {
-    text-align: center;
-    color: black;
+    background-color:#8017F7;
     border: none;
+    min-width: 200px;
+    min-height: 30px;
+    font-size: 15px;
+    color: white;
 }
 
 .loginContainer {
-    display: flex;
-    justify-content: space-around;
-    padding-top: center;
     margin: 0;
+    background-color: white;
+    color: #C3C3C3;
+    width: 1000px;
+    height: 300px;
+    padding-top: 2px;
+    padding-left: 40px;
+}
+
+#loginTitle {
+    color: grey;
+    font-size: 22px;
+    padding-top: 8px;
+}
+
+
+#loginCreate {
+    font-size: 13px;
 }
 
 .introContainer {
-    text-align: center;
     margin: 0;
-    border-right: solid;
-    padding-right: 10%;
+    background-color: #8F67CA;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    line-height: 30px;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.inputs {
+    border: none;
+    border-bottom: solid 2px #8F67CA;
+}
+
+.introTitle {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 5px;
 }
 
 .introPage {
-//  background-color: #493B3B;
- color: #D1CECE;
- display: flex;
- justify-content: space-around;
- align-items: center;
- margin: 0;
- border-bottom: solid;
- border-top: solid;
+color: #D1CECE;
+margin: 0 auto;
+max-width: 500px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+border: solid 2px;
 }
 
 .fPw {
-    color: #821FF3
+    color: #821FF3;
+    font-size: 12px;
 }
