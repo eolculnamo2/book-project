@@ -13,7 +13,7 @@
 body {
     background-color: white;
     margin: 0;
-    font: arial;
+    font-family: arial;
 }
 
 .loginBtn {
@@ -52,9 +52,14 @@ body {
     color: white;
     width: 1000px;
     height: 300px;
-    line-height: 30px;
+    line-height: 50px;
     padding: 10px;
     padding-top: 15px;
+}
+
+#title {
+    font-size: 15px;
+    padding-bottom: 15px;
 }
 
 .inputs {
@@ -63,15 +68,15 @@ body {
 }
 
 .introTitle {
+    padding-top: 2px;
+    font-size: 30px;
     text-align: center;
-    font-size: 22px;
-    padding-top: 5px;
 }
 
 .introPage {
 color: #D1CECE;
 margin: 0 auto;
-max-width: 500px;
+max-width: 800px;
 display: flex;
 justify-content: flex-end;
 align-items: center;
