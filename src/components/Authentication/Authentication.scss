@@ -64,6 +64,7 @@ body {
 
 .inputs {
     border: none;
+    outline: none;
     border-bottom: solid 2px #8F67CA;
 }
 
@@ -75,8 +76,14 @@ body {
 
 .introPage {
 color: #D1CECE;
+<<<<<<< HEAD
 margin: 0 auto;
 max-width: 800px;
+=======
+margin: auto;
+margin-top: 5em;
+max-width: 500px;
+>>>>>>> bbadf1495a481c7adf90556b9b8408f5e1239936
 display: flex;
 justify-content: flex-end;
 align-items: center;
