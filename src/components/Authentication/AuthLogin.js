@@ -19,7 +19,10 @@ export default class AuthLogin extends React.Component {
     const payload = {
       username,
       password,
+      confirmPassword: password,
     }
+
+    console.log('here')
 
     fetch('/authentication/login', {
       method: 'POST',
